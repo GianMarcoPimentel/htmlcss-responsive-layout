@@ -18,3 +18,21 @@ header{
     height: 80px;
     background-color: #0084FD;
 }
+.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    margin: auto;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+}
+.card{
+    text-align: center;
+    padding: 35px;
+    border: 2px dashed black;
+    margin: auto;
+    
+}
