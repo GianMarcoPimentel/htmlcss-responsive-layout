@@ -19,7 +19,7 @@ header{
     background-color: #0084FD;
 }
 .cards{
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,36 @@ header{
 .card{
     text-align: center;
     padding: 35px;
+    padding-bottom: 0px;
     border: 2px dashed black;
     margin: auto;
     
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.box h1{
+    color: #2E9BFE;
+    text-align: start;
+}
+.box p {
+    text-align: start;
+}
+.box button{
+    background-color: #0084FD;
+    border: #0084FD;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: white;
+
+}
+.box img{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
 }
