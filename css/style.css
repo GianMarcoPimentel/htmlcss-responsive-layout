@@ -389,6 +389,7 @@ text-align: center;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        gap: 20px;
     }
     .card{
         display: flex;
@@ -401,12 +402,14 @@ text-align: center;
         border-radius: 20px;
     }
     .card.big{
-        width: calc(100% / 3 * 2);
+        width: calc(100% / 3 * 2 - 20px);
+        height: 100%;
     }
     .card.small{
-        width: calc(100% / 3);
-        flex-grow: 1;
+        width: calc(100% / 3 - 20px);
+        height: 
     }
+
     .card span{
          color: #2E9BFE;
          font-size: 20px;
@@ -569,25 +572,30 @@ text-align: center;
         margin-left: auto;
         margin-right: auto;
     }
-    #benefits .container.columns{
+    #benefits .container{
         width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
-    .container.columns h1{
-        text-align: start;
-        color: white;
+    #benefits .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 40px;
+
+        
     }
     .col3{
         background-color: white;
         border-radius: 20px;
-        width: 100%;
+        width: calc(100% / 2 - 20px);
         padding: 30px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
         margin-bottom: 30px;
+        
     }
     .col3 .number {
         color: #9792E4;
