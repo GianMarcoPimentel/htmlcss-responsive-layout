@@ -194,6 +194,12 @@ header{
     border-radius: 20px;
 
 }
+.container .col2 .card2 .text{
+    text-align: center;
+}
+.container .col2 .card2 .text h3{
+    margin-top:40px
+}
 .container .col2 .card2 img{
     width: 50%;
     border-radius: 50%;
@@ -374,21 +380,15 @@ text-align: center;
       padding-bottom: 80px;
     
     }
-    #first-section .container.columns{
+    #first-section .container{
         width: 80%;
         margin-left: auto;
         margin-right: auto;
-        display: flex;
-        flex-direction: row;
     }
     .cards{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        gap: 40px;
-    
-        margin: auto;
-       
+        flex-wrap: wrap;
     }
     .card{
         display: flex;
@@ -399,6 +399,13 @@ text-align: center;
         margin: auto;
         background-color: #B5DDFF;
         border-radius: 20px;
+    }
+    .card.big{
+        width: calc(100% / 3 * 2);
+    }
+    .card.small{
+        width: calc(100% / 3);
+        flex-grow: 1;
     }
     .card span{
          color: #2E9BFE;
@@ -475,7 +482,7 @@ text-align: center;
         margin-bottom: 30px;
     }
     .column:last-child{
-        margin-right: auto; */
+        margin-right: auto; 
         background-color: white;
         border-radius: 20px;
         padding: 20px;
@@ -532,7 +539,7 @@ text-align: center;
         background-color: #9792E4;
         color: white;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 35px;
     
@@ -540,9 +547,15 @@ text-align: center;
         border-radius: 20px;
     
     }
+    .container .col2 .card2 .text{
+        text-align: start;
+    }
     .container .col2 .card2 img{
         width: 50%;
         border-radius: 50%;
+    }
+   .card2 .text{
+        text-align: center;
     }
     #benefits{
         background-color: #9792E4;
