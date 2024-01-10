@@ -3,15 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 header{
-    width: 100%;
+    max-width: 480px;
     height: 80px;
     background-color: #0084FD;
     color: white;
 }
-header .menu{
+/* header .menu{
     height: 50%;
-}
+} */
 .container{
     max-width: 80%;
     
@@ -33,14 +36,31 @@ header .menu{
    
 }
 .card{
-   /*  display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     padding: 35px;
-    padding-bottom: 0px;
-    border: 2px dashed black;
+   /*  padding-bottom: 0px; */
     margin: auto;
     background-color: #B5DDFF;
     border-radius: 20px;
+}
+.card .fa-solid{
+    color: #0084FD;
+    font-size: 80px;
+}
+.card .box.text{
+    color: #0084FD;
+    font-weight: bold;
+    font-size: 20px;
+}
+.card .box.p{
+    text-align: center;
+    font-size: 12px;
+}
+.card:nth-child(1){
+    padding-bottom: 0px;
 }
 .box:nth-child(2){
     align-items: center;
@@ -97,6 +117,8 @@ header .menu{
     margin-bottom: 30px;
 }
 .column:last-child{
+  /*   margin-left: auto;
+    margin-right: auto; */
     background-color: white;
     border-radius: 20px;
     padding: 20px;
@@ -134,8 +156,9 @@ header .menu{
 
 }
 .container .col2 .card2 img{
-    border-radius: 1000%;
-    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 #benefits{
     background-color: #9792E4;
@@ -145,14 +168,29 @@ header .menu{
     color: white;
 }
 .col3{
-    border: 1px dashed black;
     background-color: white;
+    border-radius: 20px;
     width: 100%;
-    padding: 10px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+}
+.col3 .number {
+    color: #9792E4;
+    font-size: 35px;
+}
+.col3 h2{
+    color: #9792E4;
+
+}
+.col3 button{
+    background-color: #9792E4;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    color: white;
 }
 .container.columns{
     display: flex;
@@ -160,28 +198,91 @@ header .menu{
     /* align-items: flex-start */;
     gap: 30px;
 }
+.col4{
+    padding: 30px;
+}
+.col4 img{
+    width: 100px;
+    height: 200px;
+    border-radius: 50%;
+}
 .col4:nth-child(4){
     width: 100%;
     color: #9792E4;
     font-size: 1rem;
+    font-weight: bold;
+    line-height: 20px;
+}
+.col4 button{
+    border: none;
+    border-radius: 20px;
+    background-color: #9792E4;
+    color: white;
+    padding: 5px 10px;
+}
+.col4 button .fa-brands {
+    margin-right: 10px;
 }
 #started{
     background-color: #9792E4;
 }
+#started .container.columns{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#started .intestazione{
+    text-align: center;
+    color: rgb(100%, 100%, 100%, 0.5);
+}
+#started .introduzione{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    /* padding: 0px 30px; */
+    text-align: center;
+}
+#started .costo{
+    color: #F3BC6B;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+#started .spiegazione{
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
 #started button{
     border: none;
     color: #9792E4;
+    border-radius: 20px;
     background-color: white;
     padding: 10px 40px;
-    border-radius: 20px;
+    letter-spacing: 2px;
+}
+#started .indirizzo{
+   font-size: 10px;
+   color: white;
+
+}
+#started .indirizzo a{
+    color: white;
 }
 footer{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     gap: 50px;
     padding: 42px 30px;
-
+    margin-left: auto;
+    margin-right: auto;
     background-color: black;
     color: white;
 
+}
+footer p{
+    font-size: 15px;
+    text-align: center;
 }
