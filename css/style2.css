@@ -1,289 +1,1042 @@
-@media screen and (max-width:480px) {
 
-    header{
-        max-width: 100% ;
-        background-color: #0084FD;
-        color: white;
-       
-    }
-    .header-container{
-        max-width: 80%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding:20px 0px;
-    
-    }
-    #first-section {
-      padding-top: 50px;
-      padding-bottom: 80px;
-    
-    }
-    #first-section .container.columns{
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .cards{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    
-        margin: auto;
-       
-    }
-    .card{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        padding: 35px;
-        margin: auto;
-        background-color: #B5DDFF;
-        border-radius: 20px;
-    }
-    .card span{
-         color: #2E9BFE;
-         font-size: 20px;
-         font-weight: bold;
-    }
-    .card .fa-solid{
-        color: #0084FD;
-        font-size: 80px;
-    }
-    .card .box.text{
-        color: #0084FD;
-        font-weight: bold;
-        font-size: 20px;
-    }
-    .card .box.p{
-        text-align: center;
-        font-size: 12px;
-    }
-    .card:nth-child(1){
-        padding-bottom: 0px;
-    }
-    .box:nth-child(2){
-        align-items: center;
-    }
-    .box{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-    }
-    .box p {
-        text-align: start;
-    }
-    .box button{
-        background-color: #0084FD;
-        border: #0084FD;
-        border-radius: 20px;
-        padding: 10px 40px;
-        color: white;
-        letter-spacing: 3px;
-    
-    }
-    .box img{
-        width: 100%;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-bottom: 0px;
-    }
-    #planning{
-        background-color: #9792E4;
-        padding: 30px 0px;
-    }
-    .container.columns{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    
-    }
-    .container.columns img{
-        width: 100%;
-    }
-    .column:nth-child(2) {
-        color: white;
-    }
-    .column:nth-child(2) h1{
-        margin-bottom: 30px;
-    }
-    .column:last-child{
-      /*   margin-left: auto;
-        margin-right: auto; */
-        background-color: white;
-        border-radius: 20px;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+
+@media screen and (min-width:768px) {
+   
+        header{
+            max-width: 100% ;
+            background-color: #0084FD;
+            color: white;
+           
+        }
+        .header-container{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding:20px 0px;
         
-    }
-    .column:last-child h2{
+        }
+        #first-section {
+          padding-top: 50px;
+          padding-bottom: 80px;
+        
+        }
+        #first-section .container.columns{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: row;
+        }
+        .cards{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 40px;
+        
+            margin: auto;
+           
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 35px;
+            margin: auto;
+            background-color: #B5DDFF;
+            border-radius: 20px;
+        }
+        .card span{
+             color: #2E9BFE;
+             font-size: 20px;
+             font-weight: bold;
+        }
+        .card .fa-solid{
+            color: #0084FD;
+            font-size: 80px;
+        }
+        .card .box.text{
+            color: #0084FD;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .card .box.p{
+            text-align: center;
+            font-size: 12px;
+        }
+        .card:nth-child(1){
+            padding-bottom: 0px;
+        }
+        .box:nth-child(2){
+            align-items: center;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .box p {
+            text-align: start;
+        }
+        .box button{
+            background-color: #0084FD;
+            border: #0084FD;
+            border-radius: 20px;
+            padding: 10px 40px;
+            color: white;
+            letter-spacing: 3px;
+        
+        }
+        .box img{
+            width: 100%;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 0px;
+        }
+        #planning{
+            background-color: #9792E4;
+            padding: 65px 0px;
+        }
+        #planning .container.columns{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        
+        }
+        #planning .container.columns .column:first-child{
+            margin-bottom: 90px;
+        }
+        #planning .container.columns .column:nth-child(2){
+            margin-bottom: 35px;
+        }
+        .container.columns .photo1{
+            width: 100%;
+        }
+        .column:nth-child(2) {
+            color: white;
+        }
+        .column:nth-child(2) h1{
+            margin-bottom: 30px;
+        }
+        .column:last-child{
+            margin-right: auto; */
+            background-color: white;
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            
+        }
+        .column:last-child h2{
+            text-align: center;
+        }
+        .column:last-child p{
+            text-align: center;
+        }
+        .column:last-child .fa-arrow-down{
+            background-color: #9792E4;
+            border-radius: 50%;
+            padding: 20px;
+        }
+        #testimonials{
+            padding-top: 65px;
+            padding-bottom: 110px;
+        }
+        #testimonials .container.columns{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #testimonials .col2 .intestazione{
+            text-align: center;
+            color: black;
+        }
+        #testimonials .col2 .titolo{
+            text-align: center;
+            color: #9792E4;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #testimonials .col2 .paragraph{
+            text-align: center;
+            margin-bottom: 55px;
+            font-style: italic;
+        }
+        .container .col2{
+            display: flex;
+            flex-direction: column;
+            align-items:  center;
+            gap: 20px;
+        
+        }
+        .container .col2 .card2{
+            background-color: #9792E4;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 35px;
+        
+            padding: 20px;
+            border-radius: 20px;
+        
+        }
+        .container .col2 .card2 img{
+            width: 50%;
+            border-radius: 50%;
+        }
+        #benefits{
+            background-color: #9792E4;
+            padding-bottom: 30px;
+        }
+        #benefits h1{
+            color: white;
+            text-align: center;
+            padding: 70px 0px;
+            font-size: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #benefits .container.columns{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container.columns h1{
+            text-align: start;
+            color: white;
+        }
+        .col3{
+            background-color: white;
+            border-radius: 20px;
+            width: 100%;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .col3 .number {
+            color: #9792E4;
+            font-size: 35px;
+        }
+        .col3 h2{
+            color: #9792E4;
+        
+        }
+        .col3 button{
+            background-color: #9792E4;
+            padding: 10px 50px;
+            border: none;
+            border-radius: 20px;
+            color: white;
+        }
+        #about-us .container.columns{
+            text-align: start;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 90px;
+            padding-bottom: 80px;
+        }
+        #about-us .container.columns .col4 strong{
+            color: #9792E4;
+            font-size: 35px;
+            
+        }
+        #about-us .container.columns .col4.pr{
+            margin-top: 50px;
+        }
+        .col4 .photo{
+            width: 50%;
+            border-radius: 50%;
+            margin-top: 60px;
+        }
+        .col4:nth-child(4){
+            width: 100%;
+            color: #9792E4;
+            font-size: 2rem;
+            font-weight: bold;
+            padding-left: auto 30px;
+        }
+        .col4 button{
+            border: none;
+            border-radius: 20px;
+            background-color: #9792E4;
+            color: white;
+            padding: 5px 10px;
+        }
+        .col4 button .fa-brands {
+            margin-right: 10px;
+        }
+        #started{
+            background-color: #9792E4;
+        }
+        #started .container.columns{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: center;
+            padding: 65px 0px;
+        }
+        
+        #started .intestazione{
+            text-align: center;
+            color: rgb(100%, 100%, 100%, 0.5);
+        }
+        #started .introduzione{
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+            text-align: center;
+        }
+        #started .costo{
+            color: #F3BC6B;
+            font-weight: bold;
+            font-size: 40px;
+            text-align: center;
+        }
+        #started .spiegazione{
+            text-align: center;
+            font-size: 15px;
+            color: white;
+        }
+        #started button{
+            border: none;
+            color: #9792E4;
+            border-radius: 20px;
+            background-color: white;
+            padding: 10px 40px;
+            letter-spacing: 2px;
+        }
+        #started .indirizzo{
+           font-size: 15px;
+           color: white;
+        
+        }
+        #started .indirizzo a{
+            color: white;
+        }
+        footer{
+            background-color: #333333;
+            padding: 40px 0px;
+        }
+        footer .container.columns{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+        footer .footer-top ,
+        footer .footer-bottom{
         text-align: center;
-    }
-    .column:last-child .fa-arrow-down{
-        background-color: #9792E4;
-        border-radius: 50%;
-        padding: 20px;
-    }
-    #testimonials .col2 .intestazione{
-        text-align: center;
-        color: black;
-    }
-    #testimonials .col2 .titolo{
-        text-align: center;
-        color: #9792E4;
-        font-size: 30px;
-        font-weight: bold;
-    }
-    #testimonials .col2 .paragraph{
-        text-align: center;
-    }
-    .container .col2{
-        display: flex;
-        flex-direction: column;
-        align-items:  center;
-        gap: 20px;
-    
-    }
-    .container .col2 .card2{
-        background-color: #9792E4;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 35px;
-    
-        padding: 20px;
-        border-radius: 20px;
-    
-    }
-    .container .col2 .card2 img{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-    }
-    #benefits{
-        background-color: #9792E4;
-    }
-    .container.columns h1{
-        text-align: start;
-        color: white;
-    }
-    .col3{
-        background-color: white;
-        border-radius: 20px;
-        width: 100%;
-        padding: 30px;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-    }
-    .col3 .number {
-        color: #9792E4;
-        font-size: 35px;
-    }
-    .col3 h2{
-        color: #9792E4;
-    
-    }
-    .col3 button{
-        background-color: #9792E4;
-        padding: 10px 50px;
-        border: none;
-        border-radius: 20px;
-        color: white;
-    }
-    #about-us .container.columns{
-        text-align: start;
-    }
-    .col4 img{
-        width: 80px;
-        height: 80px;
-        border-radius: 50%;
-    }
-    .col4:nth-child(4){
-        width: 100%;
-        color: #9792E4;
-        font-size: 2rem;
-        font-weight: bold;
-        padding-left: auto 30px;
-    }
-    .col4 button{
-        border: none;
-        border-radius: 20px;
-        background-color: #9792E4;
-        color: white;
-        padding: 5px 10px;
-    }
-    .col4 button .fa-brands {
-        margin-right: 10px;
-    }
-    #started{
-        background-color: #9792E4;
-    }
-    
-    #started .intestazione{
-        text-align: center;
-        color: rgb(100%, 100%, 100%, 0.5);
-    }
-    #started .introduzione{
-        color: white;
-        font-weight: bold;
-        font-size: 25px;
-        /* padding: 0px 30px; */
-        text-align: center;
-    }
-    #started .costo{
-        color: #F3BC6B;
-        font-weight: bold;
-        font-size: 40px;
-        text-align: center;
-    }
-    #started .spiegazione{
-        text-align: center;
-        font-size: 12px;
-        color: white;
-    }
-    #started button{
-        border: none;
-        color: #9792E4;
-        border-radius: 20px;
-        background-color: white;
-        padding: 10px 40px;
-        letter-spacing: 2px;
-    }
-    #started .indirizzo{
-       font-size: 10px;
-       color: white;
-    
-    }
-    #started .indirizzo a{
-        color: white;
-    }
-    footer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        gap: 50px;
-        padding: 42px 30px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: black;
-        color: white;
-    
-    }
-    footer p{
-        font-size: 15px;
-        text-align: center;
-    }
-    }
+        }
+        }
+
+        @media screen and (max-width:992px) {
+   
+            header{
+                max-width: 100% ;
+                background-color: #0084FD;
+                color: white;
+               
+            }
+            .header-container{
+                width: 80%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding:20px 0px;
+            
+            }
+            #first-section {
+              padding-top: 50px;
+              padding-bottom: 80px;
+            
+            }
+            #first-section .container.columns{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .cards{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+            
+                margin: auto;
+               
+            }
+            .card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                padding: 35px;
+                margin: auto;
+                background-color: #B5DDFF;
+                border-radius: 20px;
+            }
+            .card span{
+                 color: #2E9BFE;
+                 font-size: 20px;
+                 font-weight: bold;
+            }
+            .card .fa-solid{
+                color: #0084FD;
+                font-size: 80px;
+            }
+            .card .box.text{
+                color: #0084FD;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            .card .box.p{
+                text-align: center;
+                font-size: 12px;
+            }
+            .card:nth-child(1){
+                padding-bottom: 0px;
+            }
+            .box:nth-child(2){
+                align-items: center;
+            }
+            .box{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+            }
+            .box p {
+                text-align: start;
+            }
+            .box button{
+                background-color: #0084FD;
+                border: #0084FD;
+                border-radius: 20px;
+                padding: 10px 40px;
+                color: white;
+                letter-spacing: 3px;
+            
+            }
+            .box img{
+                width: 100%;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 0px;
+            }
+            #planning{
+                background-color: #9792E4;
+                padding: 65px 0px;
+            }
+            #planning .container.columns{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            
+            }
+            #planning .container.columns .column:first-child{
+                margin-bottom: 90px;
+            }
+            #planning .container.columns .column:nth-child(2){
+                margin-bottom: 35px;
+            }
+            .container.columns .photo1{
+                width: 100%;
+            }
+            .column:nth-child(2) {
+                color: white;
+            }
+            .column:nth-child(2) h1{
+                margin-bottom: 30px;
+            }
+            .column:last-child{
+                background-color: white;
+                border-radius: 20px;
+                padding: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                
+            }
+            .column:last-child h2{
+                text-align: center;
+            }
+            .column:last-child p{
+                text-align: center;
+            }
+            .column:last-child .fa-arrow-down{
+                background-color: #9792E4;
+                border-radius: 50%;
+                padding: 20px;
+            }
+            #testimonials{
+                padding-top: 65px;
+                padding-bottom: 110px;
+            }
+            #testimonials .container.columns{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            #testimonials .col2 .intestazione{
+                text-align: center;
+                color: black;
+            }
+            #testimonials .col2 .titolo{
+                text-align: center;
+                color: #9792E4;
+                font-size: 30px;
+                font-weight: bold;
+            }
+            #testimonials .col2 .paragraph{
+                text-align: center;
+                margin-bottom: 55px;
+                font-style: italic;
+            }
+            .container .col2{
+                display: flex;
+                flex-direction: column;
+                align-items:  center;
+                gap: 20px;
+            
+            }
+            .container .col2 .card2{
+                background-color: #9792E4;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 35px;
+            
+                padding: 20px;
+                border-radius: 20px;
+            
+            }
+            .container .col2 .card2 img{
+                width: 50%;
+                border-radius: 50%;
+            }
+            #benefits{
+                background-color: #9792E4;
+                padding-bottom: 30px;
+            }
+            #benefits h1{
+                color: white;
+                text-align: center;
+                padding: 70px 0px;
+                font-size: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #benefits .container.columns{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .container.columns h1{
+                text-align: start;
+                color: white;
+            }
+            .col3{
+                background-color: white;
+                border-radius: 20px;
+                width: 100%;
+                padding: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 20px;
+                margin-bottom: 30px;
+            }
+            .col3 .number {
+                color: #9792E4;
+                font-size: 35px;
+            }
+            .col3 h2{
+                color: #9792E4;
+            
+            }
+            .col3 button{
+                background-color: #9792E4;
+                padding: 10px 50px;
+                border: none;
+                border-radius: 20px;
+                color: white;
+            }
+            #about-us .container.columns{
+                text-align: start;
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 90px;
+                padding-bottom: 80px;
+            }
+            #about-us .container.columns .col4 strong{
+                color: #9792E4;
+                font-size: 35px;
+                
+            }
+            #about-us .container.columns .col4.pr{
+                margin-top: 50px;
+            }
+            .col4 .photo{
+                width: 50%;
+                border-radius: 50%;
+                margin-top: 60px;
+            
+            }
+            .col4:nth-child(4){
+                width: 100%;
+                color: #9792E4;
+                font-size: 2rem;
+                font-weight: bold;
+                padding-left: auto 30px;
+            }
+            .col4 button{
+                border: none;
+                border-radius: 20px;
+                background-color: #9792E4;
+                color: white;
+                padding: 5px 10px;
+            }
+            .col4 button .fa-brands {
+                margin-right: 10px;
+            }
+            #started{
+                background-color: #9792E4;
+            }
+            #started .container.columns{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                align-items: center;
+                padding: 65px 0px;
+            }
+            
+            #started .intestazione{
+                text-align: center;
+                color: rgb(100%, 100%, 100%, 0.5);
+            }
+            #started .introduzione{
+                color: white;
+                font-weight: bold;
+                font-size: 25px;
+                text-align: center;
+            }
+            #started .costo{
+                color: #F3BC6B;
+                font-weight: bold;
+                font-size: 40px;
+                text-align: center;
+            }
+            #started .spiegazione{
+                text-align: center;
+                font-size: 15px;
+                color: white;
+            }
+            #started button{
+                border: none;
+                color: #9792E4;
+                border-radius: 20px;
+                background-color: white;
+                padding: 10px 40px;
+                letter-spacing: 2px;
+            }
+            #started .indirizzo{
+               font-size: 15px;
+               color: white;
+            
+            }
+            #started .indirizzo a{
+                color: white;
+            }
+            footer{
+                background-color: #333333;
+                padding: 40px 0px;
+            }
+            footer .container.columns{
+                width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 50px;
+            }
+            footer .footer-top ,
+            footer .footer-bottom{
+            text-align: center;
+            } 
+            }
+
+
+
+            @media screen and (max-width:1200px) {
+                header{
+                    max-width: 100% ;
+                    background-color: #0084FD;
+                    color: white;
+                   
+                }
+                .header-container{
+                    width: 80%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding:20px 0px;
+                
+                }
+                #first-section {
+                  padding-top: 50px;
+                  padding-bottom: 80px;
+                
+                }
+                #first-section .container.columns{
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .cards{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 40px;
+                
+                    margin: auto;
+                   
+                }
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                    padding: 35px;
+                    margin: auto;
+                    background-color: #B5DDFF;
+                    border-radius: 20px;
+                }
+                .card span{
+                     color: #2E9BFE;
+                     font-size: 20px;
+                     font-weight: bold;
+                }
+                .card .fa-solid{
+                    color: #0084FD;
+                    font-size: 80px;
+                }
+                .card .box.text{
+                    color: #0084FD;
+                    font-weight: bold;
+                    font-size: 20px;
+                }
+                .card .box.p{
+                    text-align: center;
+                    font-size: 12px;
+                }
+                .card:nth-child(1){
+                    padding-bottom: 0px;
+                }
+                .box:nth-child(2){
+                    align-items: center;
+                }
+                .box{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                }
+                .box p {
+                    text-align: start;
+                }
+                .box button{
+                    background-color: #0084FD;
+                    border: #0084FD;
+                    border-radius: 20px;
+                    padding: 10px 40px;
+                    color: white;
+                    letter-spacing: 3px;
+                
+                }
+                .box img{
+                    width: 100%;
+                    margin-top: 20px;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-bottom: 0px;
+                }
+                #planning{
+                    background-color: #9792E4;
+                    padding: 65px 0px;
+                }
+                #planning .container.columns{
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                
+                }
+                #planning .container.columns .column:first-child{
+                    margin-bottom: 90px;
+                }
+                #planning .container.columns .column:nth-child(2){
+                    margin-bottom: 35px;
+                }
+                .container.columns .photo1{
+                    width: 100%;
+                }
+                .column:nth-child(2) {
+                    color: white;
+                }
+                .column:nth-child(2) h1{
+                    margin-bottom: 30px;
+                }
+                .column:last-child{
+                
+                    background-color: white;
+                    border-radius: 20px;
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 20px;
+                    
+                }
+                .column:last-child h2{
+                    text-align: center;
+                }
+                .column:last-child p{
+                    text-align: center;
+                }
+                .column:last-child .fa-arrow-down{
+                    background-color: #9792E4;
+                    border-radius: 50%;
+                    padding: 20px;
+                }
+                #testimonials{
+                    padding-top: 65px;
+                    padding-bottom: 110px;
+                }
+                #testimonials .container.columns{
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+                #testimonials .col2 .intestazione{
+                    text-align: center;
+                    color: black;
+                }
+                #testimonials .col2 .titolo{
+                    text-align: center;
+                    color: #9792E4;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+                #testimonials .col2 .paragraph{
+                    text-align: center;
+                    margin-bottom: 55px;
+                    font-style: italic;
+                }
+                .container .col2{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:  center;
+                    gap: 20px;
+                
+                }
+                .container .col2 .card2{
+                    background-color: #9792E4;
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 35px;
+                
+                    padding: 20px;
+                    border-radius: 20px;
+                
+                }
+                .container .col2 .card2 img{
+                    width: 50%;
+                    border-radius: 50%;
+                }
+                #benefits{
+                    background-color: #9792E4;
+                    padding-bottom: 30px;
+                }
+                #benefits h1{
+                    color: white;
+                    text-align: center;
+                    padding: 70px 0px;
+                    font-size: 30px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                #benefits .container.columns{
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .container.columns h1{
+                    text-align: start;
+                    color: white;
+                }
+                .col3{
+                    background-color: white;
+                    border-radius: 20px;
+                    width: 100%;
+                    padding: 30px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 20px;
+                    margin-bottom: 30px;
+                }
+                .col3 .number {
+                    color: #9792E4;
+                    font-size: 35px;
+                }
+                .col3 h2{
+                    color: #9792E4;
+                
+                }
+                .col3 button{
+                    background-color: #9792E4;
+                    padding: 10px 50px;
+                    border: none;
+                    border-radius: 20px;
+                    color: white;
+                }
+                #about-us .container.columns{
+                    text-align: start;
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-top: 90px;
+                    padding-bottom: 80px;
+                }
+                #about-us .container.columns .col4 strong{
+                    color: #9792E4;
+                    font-size: 35px;
+                    
+                }
+                #about-us .container.columns .col4.pr{
+                    margin-top: 50px;
+                }
+                .col4 .photo{
+                    width: 50%;
+                    border-radius: 50%;
+                    margin-top: 60px;
+                }
+                .col4:nth-child(4){
+                    width: 100%;
+                    color: #9792E4;
+                    font-size: 2rem;
+                    font-weight: bold;
+                    padding-left: auto 30px;
+                }
+                .col4 button{
+                    border: none;
+                    border-radius: 20px;
+                    background-color: #9792E4;
+                    color: white;
+                    padding: 5px 10px;
+                }
+                .col4 button .fa-brands {
+                    margin-right: 10px;
+                }
+                #started{
+                    background-color: #9792E4;
+                }
+                #started .container.columns{
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 40px;
+                    align-items: center;
+                    padding: 65px 0px;
+                }
+                
+                #started .intestazione{
+                    text-align: center;
+                    color: rgb(100%, 100%, 100%, 0.5);
+                }
+                #started .introduzione{
+                    color: white;
+                    font-weight: bold;
+                    font-size: 25px;
+                    text-align: center;
+                }
+                #started .costo{
+                    color: #F3BC6B;
+                    font-weight: bold;
+                    font-size: 40px;
+                    text-align: center;
+                }
+                #started .spiegazione{
+                    text-align: center;
+                    font-size: 15px;
+                    color: white;
+                }
+                #started button{
+                    border: none;
+                    color: #9792E4;
+                    border-radius: 20px;
+                    background-color: white;
+                    padding: 10px 40px;
+                    letter-spacing: 2px;
+                }
+                #started .indirizzo{
+                   font-size: 15px;
+                   color: white;
+                
+                }
+                #started .indirizzo a{
+                    color: white;
+                }
+                footer{
+                    background-color: #333333;
+                    padding: 40px 0px;
+                }
+                footer .container.columns{
+                    width: 80%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 50px;
+                }
+                footer .footer-top ,
+                footer .footer-bottom{
+                text-align: center;
+                }   
+            }
