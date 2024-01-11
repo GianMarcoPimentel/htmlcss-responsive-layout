@@ -267,33 +267,38 @@ header{
 #about-us .container .col4.pr{
     margin-top: 50px;
 }
-.col4 .photo{
+.col4-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.col4-left .photo{
     width: 50%;
     border-radius: 50%;
     margin-top: 60px;
+    /* align-content: center; */
 }
-.col4:nth-child(4){
-    width: 100%;
-    color: #9792E4;
-    font-size: 2rem;
+.col4-left p{
+    font-size: 30px;
     font-weight: bold;
-    padding-left: auto 30px;
+    color: #9792E4;
+    text-align: start;
 }
-.col4 button{
+.col4-left button{
     border: none;
     border-radius: 20px;
     background-color: #9792E4;
     color: white;
     padding: 5px 10px;
 }
-.col4 button .fa-brands {
+.col4-left button .fa-brands {
     margin-right: 10px;
 }
 #started{
     background-color: #9792E4;
 }
 #started .container{
-    width: 60%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -333,7 +338,7 @@ header{
     letter-spacing: 2px;
 }
 #started .indirizzo{
-   font-size: 15px;
+   font-size: 13px;
    color: white;
    text-align: center;
 
@@ -638,34 +643,38 @@ font-size: 13px;
     #about-us .container .col4.pr{
         margin-top: 50px;
     }
-    .col4 .photo{
-        width: 50%;
+    .col4-left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .col4-left .photo{
+        width: 100%;
         border-radius: 50%;
         margin-top: 60px;
-       text-align: center;
+        /* align-content: center; */
     }
-    .col4 .col4-left p{
-        width: 100%;
-        color: #9792E4;
-        font-size: 2rem;
+    .col4-left p{
+        font-size: 30px;
         font-weight: bold;
-        padding-left: auto 30px;
+        color: #9792E4;
+        text-align: start;
     }
-    .col4 button{
+    .col4-left button{
         border: none;
         border-radius: 20px;
         background-color: #9792E4;
         color: white;
         padding: 5px 10px;
     }
-    .col4 button .fa-brands {
+    .col4-left button .fa-brands {
         margin-right: 10px;
     }
     #started{
         background-color: #9792E4;
     }
     #started .container{
-        width: 80%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -692,7 +701,7 @@ font-size: 13px;
         text-align: center;
     }
     #started .spiegazione{
-        text-align: center;
+        /* text-align: center; */
         font-size: 15px;
         color: white;
     }
@@ -717,7 +726,7 @@ font-size: 13px;
         padding: 40px 0px;
     }
     footer .container{
-        width: 80%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -728,6 +737,7 @@ font-size: 13px;
     footer .footer-top ,
     footer .footer-bottom{
     text-align: center;
+    font-size: 13px;
     }
 }
 @media screen and (min-width:992px) {
@@ -954,13 +964,14 @@ font-size: 13px;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 40px;
+        justify-content: center;
 
         
     }
     .col3{
         background-color: white;
         border-radius: 20px;
-        width: calc(100% / 2 - 20px);
+        width: calc(100% / 3 - 40px);
         padding: 30px;
         display: flex;
         flex-direction: column;
@@ -1007,35 +1018,40 @@ font-size: 13px;
     }
     #about-us .container .col4.pr{
         margin-top: 50px;
+        font-size: 20px;
     }
-    .col4 .photo{
-        width: 50%;
+    .col4-left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .col4-left .photo{
+        width: 100%;
         border-radius: 50%;
         margin-top: 60px;
-       text-align: center;
+        /* align-content: center; */
     }
-    .col4 .col4-left p{
-        width: 100%;
-        color: #9792E4;
-        font-size: 2rem;
+    .col4-left p{
+        font-size: 30px;
         font-weight: bold;
-        padding-left: auto 30px;
+        color: #9792E4;
+        text-align: start;
     }
-    .col4 button{
+    .col4-left button{
         border: none;
         border-radius: 20px;
         background-color: #9792E4;
         color: white;
         padding: 5px 10px;
     }
-    .col4 button .fa-brands {
+    .col4-left button .fa-brands {
         margin-right: 10px;
     }
     #started{
         background-color: #9792E4;
     }
     #started .container{
-        width: 80%;
+        width: 40%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -1062,7 +1078,7 @@ font-size: 13px;
         text-align: center;
     }
     #started .spiegazione{
-        text-align: center;
+        /* text-align: center; */
         font-size: 15px;
         color: white;
     }
@@ -1087,7 +1103,7 @@ font-size: 13px;
         padding: 40px 0px;
     }
     footer .container{
-        width: 80%;
+        width: 50%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
@@ -1098,5 +1114,6 @@ font-size: 13px;
     footer .footer-top ,
     footer .footer-bottom{
     text-align: center;
+    font-size: 13px;
     }
 }
